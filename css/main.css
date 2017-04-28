@@ -1,0 +1,140 @@
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 {margin:0;padding:0}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12,.row{margin:0;padding:0}
+
+body {background:#fff;color:#000;}
+
+em, b, i {font-style:normal;}
+
+ul,ol{list-style:none}
+
+img {border:none}
+
+a {text-decoration:none;}
+
+a:hover {text-decoration:none;}
+
+table {border-spacing:0;border-collapse:collapse}
+
+.clearfix:after,.clearfix:before{content:" ";display: table;}
+
+.clearfix:after{clear: both}
+
+.flt{float: left}
+.frt{float: right}
+
+.container-fluid,.navbar,.navbar-default{margin:0;padding:0;overflow: hidden;border: none;border-radius: 0}
+
+.navbar-default, .navbar-collapse, .navbar-default, .navbar-form, .navbar-header{
+    background-color: #000;
+}
+.navbar-nav{
+    float: none;margin: 0 auto;
+    width: 1200px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    cursor: pointer;
+    line-height:70px;
+    text-align: center;
+    font-size: 14px;
+    width: 120px;
+    padding: 0;
+}
+.navbar-default .navbar-nav > li:first-child > a{
+    cursor: pointer;
+    height: 70px;
+    border-bottom: 4px solid #cf0a2c;
+}
+.navbar-default .navbar-nav > li {
+    width: 140px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:visited{
+    cursor: pointer;
+    color: #fff;
+    height: 70px;
+    border-bottom: 4px solid #cf0a2c;
+    transition:all 0.25s linear 0.01s
+}
+
+.navbar-default .navbar-toggle{
+    border:none
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color:#000;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    margin:0 ;
+}
+
+.line1{
+    background: url("../images/3.jpg");
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    margin: 60px auto 50px auto;
+}
+.line1 span{
+    line-height: 41px;
+    padding:0 10px;
+    font-size: 28px;
+    background-color: #fff;
+    font-family: FangSong;
+}
+
+.box0{
+    position: relative;
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: url("../images/box1.png");
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+
+.box2{
+    width: 209px;
+    margin: auto;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 43%;
+    float: none;
+}
+
+.box2 span{
+    display: block;
+    width:20px;
+    height: 1px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.box0:hover .box1{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.foot{
+    margin-top:112px;
+    border-top: 1px solid #bababa;
+    padding-top:20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.foot span a{
+    color: #333;
+    background: transparent;
+    margin: 0 10px;
+}
